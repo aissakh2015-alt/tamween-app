@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+/* ── الثيم المخصص (v4 syntax) ── */
+@theme {
+  --font-arabic: "Cairo", system-ui, sans-serif;
+
+  --color-brand-50:  #eef6ff;
+  --color-brand-100: #d9ebff;
+  --color-brand-500: #3b82f6;
+  --color-brand-600: #2563eb;
+  --color-brand-700: #1d4ed8;
+  --color-brand-900: #1e3a8a;
+
+  --animate-pulse-soft: pulseSoft 1.8s ease-in-out infinite;
+}
+
+@keyframes pulseSoft {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0.55; }
+}
+
+/* ── أساسيات عامة ── */
+html, body, #root { height: 100%; }
+
+body {
+  font-family: 'Cairo', system-ui, sans-serif;
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 8px; }
+::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
