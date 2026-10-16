@@ -1,27 +1,40 @@
 {
-  "name": "تطبيق دورة التموين",
+  "name": "التموين — إدارة المخزون والتموين",
   "short_name": "التموين",
-  "description": "نظام إدارة دورة التموين والمخزون",
-  "theme_color": "#1e293b",
-  "background_color": "#f1f5f9",
-  "display": "standalone",
-  "orientation": "portrait",
+  "description": "نظام إدارة دورة التموين والمخزون والإنتاج",
   "start_url": "/",
   "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#1e293b",
+  "background_color": "#1e293b",
   "lang": "ar",
   "dir": "rtl",
+  "categories": ["business", "productivity", "utilities"],
   "icons": [
     {
       "src": "/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
     },
     {
       "src": "/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
